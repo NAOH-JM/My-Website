@@ -1,0 +1,69 @@
+.header{
+    padding-top: 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: relative;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-section{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    margin-left: 150px;
+    background-color: rgb(41, 41, 41);
+    border-radius: 12px;
+}
+.logo-section img{
+    width: 50px;
+}
+.navigation-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+    height: 40px;
+    margin-right: 200px;
+
+}
+.navigations{
+    padding: 5px;
+    margin: 11px;
+    color: rgb(53, 53, 53);
+    font-size: 18px;
+    font-weight: 400;
+    width: 150px;
+    transition: all 0.15s;
+    border-radius: 18px;
+}
+.navigations:hover{
+    padding: 5px;
+    border-radius: 18px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(65, 75, 83);
+}
+.contact-me{
+    margin-left: 20px;
+    background-color: rgb(115, 145, 173);
+    border: none;
+    color: white;
+    border-radius: 15px;
+    padding: 8px 15px;
+    margin-right: 150px;
+    font-size: 13px;
+    font-weight: 700;
+    width: 200px;
+    height: 30px;
+    transition: all 0.15s;
+}
+.contact-me:hover{
+    background-color: aliceblue;
+    color: black;
+}

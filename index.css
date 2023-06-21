@@ -1,35 +1,12 @@
 body{
-    background-color: rgb(233, 233, 233);
+    font-family: 'Poppins', Arial;
     margin-bottom: 1000px;
+    background-color: rgb(53, 53, 53);
 }
-.header-logo{
-   top: 0;
-    left: 0;
-    right: 0;
-    position: fixed;
-}
-.header{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
+.main{
     width: 100%;
-    height: 100px;
- 
-}
-.logo{
-    width: 90px;
-}
-.name{
-    border-radius: 125px;
-    object-fit: cover;
-    height: 100%;
-    width: 180px;
-}
-.introduction{
-    border-radius: 90px;
-    margin-top: 110px;
-    width: 100%;
-    height: 300px;
-    background-color: rgb(59, 59, 59);
+    height: 700px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background-image: linear-gradient(rgb(255, 213, 134), rgb(163, 197, 255));
 }
